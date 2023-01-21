@@ -21,6 +21,7 @@ Route::post('/user', [UserController::class,'store']);
 Route::middleware('auth:sanctum')->group(function(){
     Route::get('/me', [UserController::class,'me']);
     Route::patch('/user/change-email',  [UserController::class,'updateEmail']);
+    Route::delete('/user/logout',  [UserController::class,'logout']);
 });
 
 
