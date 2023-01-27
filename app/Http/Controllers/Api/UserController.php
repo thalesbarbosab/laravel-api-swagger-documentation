@@ -15,10 +15,10 @@ use App\Models\User;
 
 /**
  * @OA\Info(
- *   title="API Example",
- *   version="1.0.0",
+ *   title="API Laravel Swagger Documentation",
+ *   version="1.5.0",
  *   contact={
- *     "email": "developer@example.org"
+ *     "email": "dev.tbarbosa.bento@gmail.com"
  *   }
  * )
  * @OA\SecurityScheme(

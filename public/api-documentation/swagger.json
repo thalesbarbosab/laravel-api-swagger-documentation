@@ -1,11 +1,11 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "API Example",
+        "title": "API Laravel Swagger Documentation",
         "contact": {
-            "email": "developer@example.org"
+            "email": "dev.tbarbosa.bento@gmail.com"
         },
-        "version": "1.0.0"
+        "version": "1.5.0"
     },
     "paths": {
         "/api/sanctum/token": {
@@ -61,7 +61,7 @@
                             }
                         }
                     },
-                    "422": {
+                    "421": {
                         "description": "Incorrect credentials",
                         "content": {
                             "application/json": {
